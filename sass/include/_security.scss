@@ -1,0 +1,60 @@
+/*TECHNOLOGY SECTION*/
+
+#security {
+    background-color: $dark;
+    color: white ;
+    margin: 3rem 0;
+    padding: 3rem 0;
+    .owl-carousel {
+        .item {
+            .item-title {
+                > a {
+                    text-decoration: none;
+                    color: white ;
+                }
+                > .d-flex {
+                    > a {
+                        color: white !important;
+                        padding: 0.2rem;
+                        text-decoration: none;
+                        font-size: 0.9rem;
+                    }
+                    > img {
+                        width: 30px;
+                        margin-right: 0.5rem;
+                    }
+                }
+                > i,span {
+                    padding: 0.2rem;
+                    text-decoration: none;
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+
+    .owl-nav {
+        margin-top: 4rem;
+        button {
+            &:hover,
+            &focus {
+                outline: none;
+                box-shadow: none;
+                background-color: transparent;
+            }
+        }
+        button span {
+            
+            background-color:$light;
+            color: black;
+            padding: .4rem 3rem;
+            border-radius: 5rem;
+            &:hover {
+                background-color: $dark;
+                color: white;
+            }
+        }
+    }
+
+}
+

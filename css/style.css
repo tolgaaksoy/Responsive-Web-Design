@@ -11290,4 +11290,58 @@ body {
 #tech .owl-nav button span:hover {
   background-color: #343a40;
 }
+
+/*TECHNOLOGY SECTION*/
+#security {
+  background-color: #343a40;
+  color: white;
+  margin: 3rem 0;
+  padding: 3rem 0;
+}
+
+#security .owl-carousel .item .item-title > a {
+  text-decoration: none;
+  color: white;
+}
+
+#security .owl-carousel .item .item-title > .d-flex > a {
+  color: white !important;
+  padding: 0.2rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+#security .owl-carousel .item .item-title > .d-flex > img {
+  width: 30px;
+  margin-right: 0.5rem;
+}
+
+#security .owl-carousel .item .item-title > i, #security .owl-carousel .item .item-title span {
+  padding: 0.2rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+#security .owl-nav {
+  margin-top: 4rem;
+}
+
+#security .owl-nav button:hover, #security .owl-nav buttonfocus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+}
+
+#security .owl-nav button span {
+  background-color: #f8f9fa;
+  color: black;
+  padding: .4rem 3rem;
+  border-radius: 5rem;
+}
+
+#security .owl-nav button span:hover {
+  background-color: #343a40;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
