@@ -16,3 +16,10 @@
 .fon-size-3{
     font-size: 3rem;
 }
+
+.width-lg-50{
+    @media screen and (min-width:992px){
+        width:200px;
+        
+    }
+}
