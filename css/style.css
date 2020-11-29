@@ -11163,4 +11163,37 @@ body {
 .fon-size-3 {
   font-size: 3rem;
 }
+
+/*TEMPLATE BANNER*/
+#banner {
+  background-image: url("../../assets/backgroundimg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.space {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 14rem;
+  width: 100%;
+  height: 800px;
+  color: white;
+}
+
+.space .buttons > a {
+  margin-right: .7rem;
+  padding: .4rem 1.8rem;
+}
+
+.space .buttons > a:hover {
+  background: white !important;
+}
+
+.space .buttons > a:hover > span {
+  color: #343a40;
+}
 /*# sourceMappingURL=style.css.map */
