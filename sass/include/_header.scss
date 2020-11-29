@@ -1,7 +1,9 @@
 
 body {
     font-family: $inter;
-
+    background-image: url("../../assets/site_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #header {
     .top {
@@ -14,9 +16,9 @@ body {
     .navbar {
         .collapse {
             .nav-item {
-                padding: 0.4rem;
+                padding: 0 0.4rem;
                 > a {
-                    color: white;
+                    color: white !important;
                 }
             }
         }
