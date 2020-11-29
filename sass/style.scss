@@ -8,3 +8,11 @@
 /*OWL CAROUSEL*/
 @import '../node_modules/owl.carousel/src/scss/owl.carousel.scss';
 @import '../node_modules/owl.carousel/src/scss/owl.theme.default.scss';
+
+/*GOOGLE FONTS*/
+@import url( 'https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito&display=swap');
+
+//TEMPLATES
+@import './include/variables';
+@import './include/header';
+@import './include/global';

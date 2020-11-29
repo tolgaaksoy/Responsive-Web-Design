@@ -1,0 +1,21 @@
+
+body{
+    font-family: $inter;
+
+}
+#header {
+    .top{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+    }
+    .navbar {
+        .collapse {
+            .nav-item {
+                padding: 0.4rem;
+            }
+        }
+    }
+}
