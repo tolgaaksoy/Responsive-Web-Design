@@ -11185,6 +11185,24 @@ body {
   padding-left: 1rem;
 }
 
+.img-hover {
+  overflow: hidden;
+}
+
+.img-hover img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+}
+
+.img-hover img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 /*TEMPLATE BANNER*/
 #banner {
   background-image: url("../../assets/backgroundimg1.jpg");
@@ -11234,5 +11252,42 @@ body {
 /*TECHNOLOGY SECTION*/
 #tech {
   padding: 3rem 0;
+}
+
+#tech .owl-carousel .item .item-title > a {
+  text-decoration: none;
+  color: #343a40;
+}
+
+#tech .owl-carousel .item .item-title > .d-flex > img {
+  width: 30px;
+  margin-right: 0.5rem;
+}
+
+#tech .owl-carousel .item .item-title > a, #tech .owl-carousel .item .item-title i, #tech .owl-carousel .item .item-title span {
+  padding: 0.2rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+#tech .owl-nav {
+  margin-top: 2rem;
+}
+
+#tech .owl-nav button:hover, #tech .owl-nav buttonfocus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+}
+
+#tech .owl-nav button span {
+  background-color: #f8f9fa;
+  padding: .4rem 3rem;
+  border-radius: 5rem;
+}
+
+#tech .owl-nav button span:hover {
+  background-color: #343a40;
 }
 /*# sourceMappingURL=style.css.map */
