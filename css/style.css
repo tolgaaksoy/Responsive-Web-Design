@@ -11180,6 +11180,11 @@ body {
   }
 }
 
+.left-border {
+  border-left: 8px solid #20c997;
+  padding-left: 1rem;
+}
+
 /*TEMPLATE BANNER*/
 #banner {
   background-image: url("../../assets/backgroundimg1.jpg");
@@ -11224,5 +11229,10 @@ body {
   .space {
     padding-top: 10rem;
   }
+}
+
+/*TECHNOLOGY SECTION*/
+#tech {
+  padding: 3rem 0;
 }
 /*# sourceMappingURL=style.css.map */
