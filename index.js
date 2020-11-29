@@ -40,4 +40,24 @@ $(document)
                 }
             }
         });
+        $('#favorite .owl-carousel').owlCarousel({
+            margin: 40,
+            dots: false,
+            loop: true,
+            nav: true,
+            navText: [
+                "<span><i class='fas fa-arrow-left'></i></span", "<span><i class='fas fa-arrow-right'></i></span>"
+            ],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        });
     });

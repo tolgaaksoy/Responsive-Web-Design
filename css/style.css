@@ -11162,15 +11162,15 @@ body {
   font-weight: bold;
 }
 
-.fon-size-1 {
+.font-size-1 {
   font-size: 0.8rem;
 }
 
-.fon-size-2 {
+.font-size-2 {
   font-size: 1.9rem;
 }
 
-.fon-size-3 {
+.font-size-3 {
   font-size: 3rem;
 }
 
@@ -11343,5 +11343,47 @@ body {
 #security .owl-nav button span:hover {
   background-color: #343a40;
   color: white;
+}
+
+/*FAVORITE SECTION*/
+#favorite {
+  padding: 3rem 0;
+}
+
+#favorite .owl-carousel .item .item-title > a {
+  text-decoration: none;
+  color: #343a40;
+}
+
+#favorite .owl-carousel .item .item-title > .d-flex > img {
+  width: 30px;
+  margin-right: 0.5rem;
+}
+
+#favorite .owl-carousel .item .item-title > a, #favorite .owl-carousel .item .item-title i, #favorite .owl-carousel .item .item-title span {
+  padding: 0.2rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+#favorite .owl-nav {
+  margin-top: 1rem;
+}
+
+#favorite .owl-nav button:hover, #favorite .owl-nav buttonfocus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+}
+
+#favorite .owl-nav button span {
+  background-color: #f8f9fa;
+  padding: .4rem 3rem;
+  border-radius: 5rem;
+}
+
+#favorite .owl-nav button span:hover {
+  background-color: #343a40;
 }
 /*# sourceMappingURL=style.css.map */
